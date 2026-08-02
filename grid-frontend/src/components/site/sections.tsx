@@ -1,0 +1,12 @@
+export { HowItWorksSection as HowItWorks } from "@/pages/home/components/HowItWorksSection";
+export { CampusGridIdSection as CampusGridId } from "@/pages/home/components/CampusGridIdSection";
+export { CapabilitiesSection as Capabilities } from "@/pages/home/components/CapabilitiesSection";
+export { ProductsSection as Products } from "@/pages/home/components/ProductsSection";
+export { CollegeBookSpotlightSection as CollegeBookSpotlight } from "@/pages/home/components/CollegeBookSpotlightSection";
+export { StatsSection as Stats } from "@/pages/home/components/StatsSection";
+export { BusinessValueSection as BusinessValue } from "@/pages/home/components/BusinessValueSection";
+export { ArchitectureSection as Architecture } from "@/pages/home/components/ArchitectureSection";
+export { RoadmapSection as Roadmap } from "@/pages/home/components/RoadmapSection";
+export { SecuritySection as Security } from "@/pages/home/components/SecuritySection";
+export { FaqSection as Faq } from "@/pages/home/components/FaqSection";
+export { FinalCtaSection as FinalCta } from "@/pages/home/components/FinalCtaSection";
