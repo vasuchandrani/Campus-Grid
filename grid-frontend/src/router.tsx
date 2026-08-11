@@ -1,7 +1,7 @@
 import { QueryClient } from "@tanstack/react-query";
 import { createRouter } from "@tanstack/react-router";
 import { routeTree } from "./routeTree.gen";
-import { PageLoader } from "./components/site/page-loader";
+import { PageLoader } from "./components/common/page-loader";
 
 export const getRouter = () => {
   const queryClient = new QueryClient();

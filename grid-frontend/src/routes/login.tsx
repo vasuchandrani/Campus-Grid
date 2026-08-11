@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { LoginPage } from "@/pages/login/LoginPage";
+import { LoginPage } from "@/features/auth/LoginPage";
 
-const title = "College admin login — CampusGrid";
+const title = "Sign in with your CampusGrid ID — CampusGrid";
 const description =
-  "Sign in to the CampusGrid college admin console to manage departments, users, roles and product subscriptions.";
+  "Students, professors, HoDs and college admins sign in to CampusGrid with a single CampusGrid ID that also works on CampusConnect and GradeMate.";
 
 export const Route = createFileRoute("/login")({
   head: () => ({

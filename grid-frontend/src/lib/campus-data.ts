@@ -37,7 +37,12 @@ export const PRODUCTS = [
     subscription: true,
     description:
       "CampusConnect centralizes communication across the college — clubs, announcements, events, a university digital newspaper and a monthly research paper publishing cycle.",
-    inherits: ["Students & faculty", "Departments & batches", "Roles & permissions", "Login identity"],
+    inherits: [
+      "Students & faculty",
+      "Departments & batches",
+      "Roles & permissions",
+      "Login identity",
+    ],
     features: [
       "Club management & verified club admins",
       "University digital newspaper by student journalists",
@@ -63,7 +68,12 @@ export const PRODUCTS = [
     subscription: true,
     description:
       "GradeMate digitizes the complete pen-and-paper examination workflow — long-form answers with a drawing board, line-level evaluation, and a full campus recruitment pipeline.",
-    inherits: ["Students & faculty", "Departments, branches & sections", "HoD / professor roles", "Login identity"],
+    inherits: [
+      "Students & faculty",
+      "Departments, branches & sections",
+      "HoD / professor roles",
+      "Login identity",
+    ],
     features: [
       "Digital pen-and-paper exams with drawing board",
       "Autosave and single irreversible submission",
@@ -122,24 +132,78 @@ export const COLLEGEBOOK = {
 } as const;
 
 export const CAPABILITIES = [
-  { icon: IdCard, title: "One CampusGrid ID", body: "Every registered college receives a unique CampusGrid ID used to link every product." },
-  { icon: Users, title: "Central User Management", body: "Students, professors and staff live in one verified directory maintained only here." },
-  { icon: ShieldCheck, title: "Role Based Access", body: "Granular roles and permissions defined here and honoured by every connected product." },
-  { icon: KeyRound, title: "Single Sign-On", body: "One identity for every connected product. Students and faculty log in once." },
-  { icon: Fingerprint, title: "Secure Authentication", body: "Encrypted credentials, session control and institution-verified access." },
-  { icon: Layers, title: "Multi-College Architecture", body: "Every institution is isolated with its own tenant and data boundary." },
-  { icon: Activity, title: "Automatic Sync", body: "Add, update or remove a user once — every connected product reflects it instantly." },
-  { icon: Webhook, title: "API Driven", body: "Clean, signed APIs and webhooks power every connected product." },
-  { icon: ScrollText, title: "Audit Logs", body: "Every administrative action is recorded and reviewable." },
+  {
+    icon: IdCard,
+    title: "One CampusGrid ID",
+    body: "Every registered college receives a unique CampusGrid ID used to link every product.",
+  },
+  {
+    icon: Users,
+    title: "Central User Management",
+    body: "Students, professors and staff live in one verified directory maintained only here.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Role Based Access",
+    body: "Granular roles and permissions defined here and honoured by every connected product.",
+  },
+  {
+    icon: KeyRound,
+    title: "Single Sign-On",
+    body: "One identity for every connected product. Students and faculty log in once.",
+  },
+  {
+    icon: Fingerprint,
+    title: "Secure Authentication",
+    body: "Encrypted credentials, session control and institution-verified access.",
+  },
+  {
+    icon: Layers,
+    title: "Multi-College Architecture",
+    body: "Every institution is isolated with its own tenant and data boundary.",
+  },
+  {
+    icon: Activity,
+    title: "Automatic Sync",
+    body: "Add, update or remove a user once — every connected product reflects it instantly.",
+  },
+  {
+    icon: Webhook,
+    title: "API Driven",
+    body: "Clean, signed APIs and webhooks power every connected product.",
+  },
+  {
+    icon: ScrollText,
+    title: "Audit Logs",
+    body: "Every administrative action is recorded and reviewable.",
+  },
 ];
 
 export const STEPS = [
-  { title: "Register your college", body: "Institution details, verification and the college-admin account in one form." },
-  { title: "Receive your CampusGrid ID", body: "A unique institution ID is issued instantly — this is the key to every product." },
-  { title: "Configure departments", body: "Create departments, branches, batches and your academic structure." },
-  { title: "Add students & faculty", body: "Bulk import or add manually — CampusGrid is the single source of truth." },
-  { title: "Assign roles", body: "Admins, HoDs, professors, club admins, journalists and students." },
-  { title: "Link a product with your ID", body: "On CampusConnect or GradeMate, enter your CampusGrid ID — no data re-entry." },
+  {
+    title: "Register your college",
+    body: "Institution details, verification and the college-admin account in one form.",
+  },
+  {
+    title: "Receive your CampusGrid ID",
+    body: "A unique institution ID is issued instantly — this is the key to every product.",
+  },
+  {
+    title: "Configure departments",
+    body: "Create departments, branches, batches and your academic structure.",
+  },
+  {
+    title: "Add students & faculty",
+    body: "Bulk import or add manually — CampusGrid is the single source of truth.",
+  },
+  {
+    title: "Assign roles",
+    body: "Admins, HoDs, professors, club admins, journalists and students.",
+  },
+  {
+    title: "Link a product with your ID",
+    body: "On CampusConnect or GradeMate, enter your CampusGrid ID — no data re-entry.",
+  },
 ];
 
 export const ID_FLOW = [
@@ -162,10 +226,26 @@ export const ID_FLOW = [
 ];
 
 export const STATS = [
-  { value: "25,000+", label: "Students manageable per institution", sub: "Bulk import, batch promotion and graduation handling" },
-  { value: "1", label: "CampusGrid ID for every product", sub: "Register once, link CampusConnect and GradeMate with the same ID" },
-  { value: "100%", label: "Centralized data", sub: "No duplicate directories, no drift between products" },
-  { value: "0", label: "Times you re-enter your data", sub: "Data lives in CampusGrid and flows outward" },
+  {
+    value: "25,000+",
+    label: "Students manageable per institution",
+    sub: "Bulk import, batch promotion and graduation handling",
+  },
+  {
+    value: "1",
+    label: "CampusGrid ID for every product",
+    sub: "Register once, link CampusConnect and GradeMate with the same ID",
+  },
+  {
+    value: "100%",
+    label: "Centralized data",
+    sub: "No duplicate directories, no drift between products",
+  },
+  {
+    value: "0",
+    label: "Times you re-enter your data",
+    sub: "Data lives in CampusGrid and flows outward",
+  },
 ];
 
 /** Future features OF CampusGrid itself — not separate products. */

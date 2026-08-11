@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { RegisterPage } from "@/pages/register/RegisterPage";
+import { RegisterPage } from "@/features/auth/RegisterPage";
 
 const title = "Register your college — CampusGrid";
 const description =
-  "Create your institution account on CampusGrid: add college details, departments, admin credentials and pick the products you want to activate.";
+  "Create your institution account on CampusGrid and start a 30-day free trial with no advance payment. Add college details, admin credentials and activate products.";
 
 export const Route = createFileRoute("/register")({
   head: () => ({
