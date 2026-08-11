@@ -7,4 +7,10 @@ export default defineConfig({
       handler: "./dist/server/server.js",
     },
   ],
+  publicAssets: [
+    {
+      dir: "dist/client",
+      baseURL: "/",
+    },
+  ],
 });
