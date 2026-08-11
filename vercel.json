@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd grid-frontend && npm install && npm run build",
+  "outputDirectory": "grid-frontend/.output/public",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
